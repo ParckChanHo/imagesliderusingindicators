@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:id="@+id/slider"
+        app:iss_auto_cycle="true"
+        app:iss_placeholder="@drawable/background_gray"
+        app:iss_error_image="@drawable/background_gray"
+        app:iss_delay="0"
+        app:iss_period="3000"
+        app:iss_corner_radius="5"
+        />
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
